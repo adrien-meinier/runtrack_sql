@@ -5,7 +5,7 @@ class Employe:
         self.connexion = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="noein210494",
+            password="",
             database="entreprise"
         )
         self.curseur = self.connexion.cursor()

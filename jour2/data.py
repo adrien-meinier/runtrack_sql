@@ -5,7 +5,7 @@ try:
     connexion = mysql.connector.connect(
         host="localhost",        # Adresse du serveur MySQL
         user="root",             # Votre utilisateur MySQL
-        password="noein210494",    # Votre mot de passe
+        password="",    # Votre mot de passe
         database="LaPlateforme"  # Nom de la base de données
     )
 
